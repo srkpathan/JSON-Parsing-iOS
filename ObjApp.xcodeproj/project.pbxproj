@@ -13,6 +13,14 @@
 		183A565F1F21230000E6F4DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 183A565D1F21230000E6F4DD /* Main.storyboard */; };
 		183A56611F21230000E6F4DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 183A56601F21230000E6F4DD /* Assets.xcassets */; };
 		183A56641F21230000E6F4DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 183A56621F21230000E6F4DD /* LaunchScreen.storyboard */; };
+		183A566D1F21236400E6F4DD /* ListViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 183A566C1F21236400E6F4DD /* ListViewCell.m */; };
+		183A56701F21397B00E6F4DD /* MyModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 183A566F1F21397B00E6F4DD /* MyModel.m */; };
+		183A56721F213CA300E6F4DD /* MyJson.json in Resources */ = {isa = PBXBuildFile; fileRef = 183A56711F213CA300E6F4DD /* MyJson.json */; };
+		189A61791F22594700949D5C /* ItemModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 189A61781F22594700949D5C /* ItemModel.m */; };
+		189A617C1F225A5200949D5C /* BattersModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 189A617B1F225A5200949D5C /* BattersModel.m */; };
+		189A617F1F225AC700949D5C /* BatterModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 189A617E1F225AC700949D5C /* BatterModel.m */; };
+		189A61821F225AFC00949D5C /* ToppingModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 189A61811F225AFC00949D5C /* ToppingModel.m */; };
+		5481FF07AC14AF5276F4E617 /* libPods-ObjApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C10AA4D459C3157CDB7C6CF /* libPods-ObjApp.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +34,24 @@
 		183A56601F21230000E6F4DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		183A56631F21230000E6F4DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		183A56651F21230000E6F4DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		183A566B1F21236400E6F4DD /* ListViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListViewCell.h; sourceTree = "<group>"; };
+		183A566C1F21236400E6F4DD /* ListViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListViewCell.m; sourceTree = "<group>"; };
+		183A566E1F21397B00E6F4DD /* MyModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyModel.h; sourceTree = "<group>"; };
+		183A566F1F21397B00E6F4DD /* MyModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyModel.m; sourceTree = "<group>"; };
+		183A56711F213CA300E6F4DD /* MyJson.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = MyJson.json; sourceTree = "<group>"; };
+		189A61771F22594700949D5C /* ItemModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemModel.h; sourceTree = "<group>"; };
+		189A61781F22594700949D5C /* ItemModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemModel.m; sourceTree = "<group>"; };
+		189A617A1F225A5200949D5C /* BattersModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BattersModel.h; sourceTree = "<group>"; };
+		189A617B1F225A5200949D5C /* BattersModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BattersModel.m; sourceTree = "<group>"; };
+		189A617D1F225AC700949D5C /* BatterModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BatterModel.h; sourceTree = "<group>"; };
+		189A617E1F225AC700949D5C /* BatterModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BatterModel.m; sourceTree = "<group>"; };
+		189A61801F225AFC00949D5C /* ToppingModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToppingModel.h; sourceTree = "<group>"; };
+		189A61811F225AFC00949D5C /* ToppingModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToppingModel.m; sourceTree = "<group>"; };
+		18A87A121F2287460025A008 /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
+		18A87A141F22875E0025A008 /* UserNotificationsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotificationsUI.framework; path = System/Library/Frameworks/UserNotificationsUI.framework; sourceTree = SDKROOT; };
+		4B6C4C79AA890F659AC3C9FC /* Pods-ObjApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ObjApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ObjApp/Pods-ObjApp.debug.xcconfig"; sourceTree = "<group>"; };
+		5C10AA4D459C3157CDB7C6CF /* libPods-ObjApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ObjApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8ED7F0D5BB94FA0791D16194 /* Pods-ObjApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ObjApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-ObjApp/Pods-ObjApp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5481FF07AC14AF5276F4E617 /* libPods-ObjApp.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +71,8 @@
 			children = (
 				183A56531F21230000E6F4DD /* ObjApp */,
 				183A56521F21230000E6F4DD /* Products */,
+				4BA6556A6B98D6E58A455D55 /* Pods */,
+				30C447DA89CB19462B731A86 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,15 +87,19 @@
 		183A56531F21230000E6F4DD /* ObjApp */ = {
 			isa = PBXGroup;
 			children = (
+				189A61761F22591B00949D5C /* Model */,
 				183A56571F21230000E6F4DD /* AppDelegate.h */,
 				183A56581F21230000E6F4DD /* AppDelegate.m */,
 				183A565A1F21230000E6F4DD /* ViewController.h */,
 				183A565B1F21230000E6F4DD /* ViewController.m */,
+				183A566B1F21236400E6F4DD /* ListViewCell.h */,
+				183A566C1F21236400E6F4DD /* ListViewCell.m */,
 				183A565D1F21230000E6F4DD /* Main.storyboard */,
 				183A56601F21230000E6F4DD /* Assets.xcassets */,
 				183A56621F21230000E6F4DD /* LaunchScreen.storyboard */,
 				183A56651F21230000E6F4DD /* Info.plist */,
 				183A56541F21230000E6F4DD /* Supporting Files */,
+				183A56711F213CA300E6F4DD /* MyJson.json */,
 			);
 			path = ObjApp;
 			sourceTree = "<group>";
@@ -79,6 +112,42 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		189A61761F22591B00949D5C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				183A566E1F21397B00E6F4DD /* MyModel.h */,
+				183A566F1F21397B00E6F4DD /* MyModel.m */,
+				189A61771F22594700949D5C /* ItemModel.h */,
+				189A61781F22594700949D5C /* ItemModel.m */,
+				189A617A1F225A5200949D5C /* BattersModel.h */,
+				189A617B1F225A5200949D5C /* BattersModel.m */,
+				189A617D1F225AC700949D5C /* BatterModel.h */,
+				189A617E1F225AC700949D5C /* BatterModel.m */,
+				189A61801F225AFC00949D5C /* ToppingModel.h */,
+				189A61811F225AFC00949D5C /* ToppingModel.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		30C447DA89CB19462B731A86 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				18A87A141F22875E0025A008 /* UserNotificationsUI.framework */,
+				18A87A121F2287460025A008 /* UserNotifications.framework */,
+				5C10AA4D459C3157CDB7C6CF /* libPods-ObjApp.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4BA6556A6B98D6E58A455D55 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4B6C4C79AA890F659AC3C9FC /* Pods-ObjApp.debug.xcconfig */,
+				8ED7F0D5BB94FA0791D16194 /* Pods-ObjApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -86,9 +155,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 183A56681F21230000E6F4DD /* Build configuration list for PBXNativeTarget "ObjApp" */;
 			buildPhases = (
+				EC6644783FA15F30E280D714 /* [CP] Check Pods Manifest.lock */,
 				183A564D1F2122FE00E6F4DD /* Sources */,
 				183A564E1F2122FE00E6F4DD /* Frameworks */,
 				183A564F1F2122FE00E6F4DD /* Resources */,
+				620E9FB46D85122D2940AE19 /* [CP] Embed Pods Frameworks */,
+				B88B3B098B0492AB7491A586 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -140,16 +212,71 @@
 				183A56641F21230000E6F4DD /* LaunchScreen.storyboard in Resources */,
 				183A56611F21230000E6F4DD /* Assets.xcassets in Resources */,
 				183A565F1F21230000E6F4DD /* Main.storyboard in Resources */,
+				183A56721F213CA300E6F4DD /* MyJson.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		620E9FB46D85122D2940AE19 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ObjApp/Pods-ObjApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B88B3B098B0492AB7491A586 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ObjApp/Pods-ObjApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EC6644783FA15F30E280D714 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		183A564D1F2122FE00E6F4DD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				189A61791F22594700949D5C /* ItemModel.m in Sources */,
+				189A617C1F225A5200949D5C /* BattersModel.m in Sources */,
+				183A566D1F21236400E6F4DD /* ListViewCell.m in Sources */,
+				189A617F1F225AC700949D5C /* BatterModel.m in Sources */,
+				189A61821F225AFC00949D5C /* ToppingModel.m in Sources */,
+				183A56701F21397B00E6F4DD /* MyModel.m in Sources */,
 				183A565C1F21230000E6F4DD /* ViewController.m in Sources */,
 				183A56591F21230000E6F4DD /* AppDelegate.m in Sources */,
 				183A56561F21230000E6F4DD /* main.m in Sources */,
@@ -270,6 +397,7 @@
 		};
 		183A56691F21230000E6F4DD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B6C4C79AA890F659AC3C9FC /* Pods-ObjApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ObjApp/Info.plist;
@@ -281,6 +409,7 @@
 		};
 		183A566A1F21230000E6F4DD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8ED7F0D5BB94FA0791D16194 /* Pods-ObjApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ObjApp/Info.plist;
@@ -309,6 +438,7 @@
 				183A566A1F21230000E6F4DD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
